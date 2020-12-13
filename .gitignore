@@ -19,6 +19,4 @@ logs/
 # test/**/*.map
 # config/**/*.map
 
-config/config.default.js
-config/config.default.ts
 package.json
