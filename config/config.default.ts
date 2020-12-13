@@ -71,6 +71,9 @@ export default (appInfo: EggAppInfo) => {
   // 配置中间件
   config.middleware = ['token'];
 
+  // 允许代理
+  config.proxy = true;
+
   // the return config will combines to EggAppConfig
   return {
     ...config,
